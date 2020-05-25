@@ -1,0 +1,31 @@
+RewriteEngine On
+RewriteRule ^trang-chu$  index.php
+
+RewriteRule ^danh-sach-san-pham/dongho-(.*)$  index.php?controller=product&action=category&id=$1
+
+RewriteRule ^san-pham/chi-tiet-(.*)$  index.php?controller=product&action=detail&id=$1
+
+
+
+RewriteRule ^gio-hang$  index.php?controller=cart
+
+RewriteRule ^lien-he$  index.php?controller=contact
+
+RewriteRule ^thanh-toan$  index.php?controller=checkout
+
+RewriteRule ^news/chi-tiet-new-(.*)$  index.php?controller=news&action=detail&id=$1
+#admin
+RewriteRule ^admin$  index.php?area=admin&controller=login&action=index
+
+RewriteRule ^admin/trang-chu$  index.php?area=admin&controller=home&action=index
+
+RewriteRule ^admin/list-category$  index.php?area=admin&controller=category&action=listCategory
+
+RewriteRule ^admin/list-product$ index.php?area=admin&controller=product&action=listProduct
+
+RewriteRule ^admin/list-news$ index.php?area=admin&controller=news&action=listNews
+
+RewriteRule ^admin/list-user$ index.php?area=admin&controller=user&action=listUser
+
+RewriteRule ^logout$ index.php?area=admin&controller=login&action=logout
+RewriteRule ^login$ index.php?area=admin&controller=login
