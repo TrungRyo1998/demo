@@ -9,7 +9,7 @@
 							<a href="https://www.facebook.com/bip.phu"  target="_blank" style="font-size: 15px; font-family: 	Arial
 							Verdana ;">facebook.com/bip.phu</a><br>
 								<strong>Adress</strong><br>
-						  Trường Đại học công nghiệp Hà Nội , Bắc Từ Liêm ,Hà Nội<br>
+						  Trường Đại học công nghiệp Hà Nội , Bắc Từ Liêm<br>
 						  <abbr title="Phone">P:</abbr> 032-775-9911
 						</address>
 
